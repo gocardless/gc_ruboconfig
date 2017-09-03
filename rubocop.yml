@@ -1,0 +1,101 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - .*/**/*
+    - vendor/**/*
+    - bin/**/*
+    - node_modules/**/*
+
+Lint/UnneededDisable:
+  Severity: error
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 90
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Alias:
+  Enabled: true
+  EnforcedStyle: prefer_alias_method
+
+Style/Documentation:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Style/Encoding:
+  Enabled: never
+
+Style/FormatString:
+  EnforcedStyle: sprintf
+
+Style/FrozenStringLiteralComment:
+  Enabled: always
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+# As of 0.43.0 this cop complains in situations where a guard clause would be
+# unhelpful or erroneous.
+# The auto-correct is also buggy.
+Style/GuardClause:
+  Enabled: false
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/NumericPredicate:
+  Exclude:
+    - "spec/**/*"
+
+Style/NumericLiterals:
+  MinDigits: 11
+
+Style/SignalException:
+  EnforcedStyle: "only_raise"
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: "double_quotes"
+  Exclude:
+    - Gemfile
+
+Style/VariableNumber:
+  Enabled: false
+
+Style/YodaCondition:
+  Enabled: true
