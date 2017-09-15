@@ -94,7 +94,7 @@ Style/StringLiterals:
   Exclude:
     - Gemfile
 
-Style/VariableNumber:
+Naming/VariableNumber:
   Enabled: false
 
 Style/YodaCondition:
