@@ -1,6 +1,8 @@
 Ruboconfig
 ==========
 
+[![CircleCI](https://circleci.com/gh/gocardless/ruboconfig.svg?style=svg)](https://circleci.com/gh/gocardless/ruboconfig)
+
 GoCardless' shared rubocop configuration.
 
 To use ruboconfig, simply add it to your Gemfile
