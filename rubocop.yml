@@ -99,3 +99,7 @@ Naming/VariableNumber:
 
 Style/YodaCondition:
   Enabled: true
+
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBraces: space
