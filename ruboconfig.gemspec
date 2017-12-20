@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "ruboconfig"
-  spec.version       = "1.1.0"
+  spec.version       = "1.2.1"
   spec.summary       = "shared rubocop config"
   spec.description   = "The GoCardless Engineering shared Rubocop config"
   spec.authors       = %w(GoCardless)
