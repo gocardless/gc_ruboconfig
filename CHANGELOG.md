@@ -1,6 +1,12 @@
 Changelog
 =========
 
+
+2.0.0
+-----
+
+Rename the gem to `gc_ruboconfig` ahead of release on RubyGems (see d73dbee for details)
+
 1.2.2
 -----
 
