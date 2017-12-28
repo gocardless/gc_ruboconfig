@@ -1,15 +1,17 @@
-Ruboconfig
+gc_ruboconfig
 ==========
 
-GoCardless' shared rubocop configuration.
+GoCardless's shared Rubocop configuration, confirming to our house style.
 
-To use ruboconfig, simply add it to your Gemfile
+To use `gc_ruboconfig`, simply add it to your Gemfile:
+
 ```ruby
-gem 'ruboconfig', git: 'git@github.com:gocardless/ruboconfig'
+gem 'gc_ruboconfig'
 ```
 
-and inherit from it in your `.rubocop.yml`
+Next, just inherit from it in your `.rubocop.yml`:
+
 ```yaml
 inherit_gem:
-  ruboconfig: rubocop.yml
+  gc_ruboconfig: rubocop.yml
 ```
