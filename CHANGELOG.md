@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2.2
+-----
+
+* Bump rubocop to 0.52.1
+* Re-enable the `Style/FormatStringToken` cop which was temporarily disabled in v1.2.1
+
 1.2.1
 -----
 
