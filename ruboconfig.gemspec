@@ -9,5 +9,5 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = "rubocop.yml"
-  spec.add_development_dependency "rubocop", "~> 0.52.0"
+  spec.add_development_dependency "rubocop", "~> 0.52.1"
 end
