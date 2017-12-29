@@ -4,7 +4,7 @@ Changelog
 2.1.0
 -----
 
-Enable Rubocop's `DisplayStyleGuide` and `ExtraDetails` options so more helpful error messages are displayed for offences
+Enable Rubocop's `DisplayStyleGuide` and `ExtraDetails` options so more helpful error messages are displayed for offences (see 1de8a18 for further details)
 
 2.0.0
 -----
