@@ -1,5 +1,7 @@
 AllCops:
   DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
   Exclude:
     - .*/**/*
     - vendor/**/*

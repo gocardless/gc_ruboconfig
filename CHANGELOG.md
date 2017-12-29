@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.1.0
+-----
+
+Enable Rubocop's `DisplayStyleGuide` and `ExtraDetails` options so more helpful error messages are displayed for offences
 
 2.0.0
 -----
