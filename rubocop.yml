@@ -1,3 +1,5 @@
+require: rubocop-rspec
+
 AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
@@ -105,3 +107,12 @@ Style/YodaCondition:
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: space
+
+RSpec/NotToNot:
+  EnforcedStyle: to_not
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
