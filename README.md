@@ -3,6 +3,9 @@ gc_ruboconfig
 
 GoCardless's shared Rubocop configuration, confirming to our house style.
 
+If you're using [RSpec](https://github.com/rspec/rspec), this will also enforce that your
+specs conform to GoCardless's house style.
+
 To use `gc_ruboconfig`, simply add it to your Gemfile:
 
 ```ruby
