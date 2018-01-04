@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.2.0
+-----
+
+Include [`rubocop-rspec`](https://github.com/backus/rubocop-rspec) and configure it as we
+do in other projects to enforce good style in RSpec specs (#13)
+
 2.1.0
 -----
 
