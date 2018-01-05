@@ -1,6 +1,8 @@
 require 'rubygems'
 
-Bundler.require(:development)
+Bundler.require(:default)
+
+require 'rubocop'
 
 $stderr = StringIO.new
 
