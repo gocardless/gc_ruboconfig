@@ -12,6 +12,8 @@ To use `gc_ruboconfig`, simply add it to your Gemfile:
 gem 'gc_ruboconfig'
 ```
 
+The relevant versions of `rubocop` and `rubocop-rspec` will automatically be installed.
+
 Next, just inherit from it in your `.rubocop.yml`:
 
 ```yaml

@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.0
+-----
+
+Include `rubocop` and `rubocop-rspec` as production dependencies, automatically installed
+with this gem, so we can control the versions which are installed (#15)
+
 2.2.0
 -----
 
