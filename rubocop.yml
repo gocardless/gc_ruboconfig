@@ -116,3 +116,6 @@ RSpec/ContextWording:
 
 RSpec/AnyInstance:
   Enabled: false
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
