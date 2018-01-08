@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.3.1
+-----
+
+Configure the `RSpec/MessageSpies` cop to enforce that message
+expectations should be set using `.to receive`, not
+`.to have_received` (#17)
+
 2.3.0
 -----
 
