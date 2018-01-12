@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.2
+-----
+
+Bump [`rubocop-rspec`](https://github.com/backus/rubocop-rspec) to v1.22.0
+
 2.3.1
 -----
 
