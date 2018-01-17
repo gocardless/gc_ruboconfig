@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    parallelism: 3
+    working_directory: ~/gc_ruboconfig
+    docker:
+      - image: circleci/ruby:2.5
+        environment:
+          BUNDLE_JOBS: 3
+          BUNDLE_RETRY: 3
+          BUNDLE_PATH: vendor/bundle
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - gc-ruboconfig-{{ checksum "gc_ruboconfig.gemspec" }}-{{ checksum "Gemfile" }}
+            - gc-ruboconfig-
+
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+
+      - save_cache:
+          key: gc-ruboconfig-{{ checksum "gc_ruboconfig.gemspec" }}-{{ checksum "Gemfile" }}
+          paths:
+            - vendor/bundle
+
+      - type: shell
+        command: bundle exec ruby validate_config.rb

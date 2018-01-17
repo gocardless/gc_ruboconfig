@@ -1,3 +1,0 @@
-test:
-  pre:
-    - bundle exec ruby validate_config.rb
