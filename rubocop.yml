@@ -10,7 +10,7 @@ AllCops:
     - bin/**/*
     - node_modules/**/*
 
-Lint/UnneededDisable:
+Lint/UnneededCopDisableDirective:
   Severity: error
 
 Metrics/ClassLength:
