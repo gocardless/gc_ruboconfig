@@ -13,6 +13,9 @@ AllCops:
 Lint/UnneededCopDisableDirective:
   Severity: error
 
+Lint/UnneededCopEnableDirective:
+  Severity: error
+
 Metrics/ClassLength:
   Enabled: false
 
