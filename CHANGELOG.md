@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.3.3
+-----
+
+* Bump rubocop to v0.53.0, renaming a few cops in the configuration to match their new names
+* Enable the `Lint/UnneededCopEnableDirective` cop, to work alongside the already-enabled `Lint/UnneededCopDisableDirective` cop
+* Fix `validate_config.rb` so it correctly outputs any problems with the `rubocop.yml` file, rather than just exiting silently with an appropriate code
+
 2.3.2
 -----
 
