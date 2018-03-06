@@ -10,7 +10,10 @@ AllCops:
     - bin/**/*
     - node_modules/**/*
 
-Lint/UnneededDisable:
+Lint/UnneededCopDisableDirective:
+  Severity: error
+
+Lint/UnneededCopEnableDirective:
   Severity: error
 
 Metrics/ClassLength:
@@ -53,7 +56,10 @@ Style/FormatString:
 Style/FrozenStringLiteralComment:
   Enabled: always
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInArguments:
