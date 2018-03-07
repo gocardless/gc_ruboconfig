@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.4
+-----
+
+* Bump rubocop-rspec to v1.24
+
 2.3.3
 -----
 
