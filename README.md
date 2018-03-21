@@ -9,7 +9,7 @@ specs conform to GoCardless's house style.
 To use `gc_ruboconfig`, simply add it to your Gemfile:
 
 ```ruby
-gem 'gc_ruboconfig', '~> 2.3.4'
+gem 'gc_ruboconfig'
 ```
 
 The relevant versions of `rubocop` and `rubocop-rspec` will automatically be installed.
