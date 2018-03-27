@@ -125,3 +125,6 @@ RSpec/AnyInstance:
 
 RSpec/MessageSpies:
   EnforcedStyle: receive
+
+RSpec/NestedGroups:
+  Max: 4
