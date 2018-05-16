@@ -1,6 +1,16 @@
 Changelog
 =========
 
+2.3.9
+-----
+
+* Bump rubocop-rspec to v1.25
+* Enable rspec pending validation `RSpec/Pending`
+
+2.3.8
+-----
+* Replaced by 2.3.9
+
 2.3.7
 -----
 
