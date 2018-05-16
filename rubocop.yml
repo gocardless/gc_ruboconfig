@@ -126,5 +126,8 @@ RSpec/AnyInstance:
 RSpec/MessageSpies:
   EnforcedStyle: receive
 
+RSpec/Pending:
+  Enabled: true
+
 Lint/SplatKeywordArguments:
   Enabled: false
