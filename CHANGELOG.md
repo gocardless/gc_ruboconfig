@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.7
+-----
+
+* Bump rubocop of v0.56.0
+* Disable the new `Lint/SplatKeywordArguments` cop which is [buggy](https://github.com/bbatsov/rubocop/issues/5887)
+
 2.3.6
 -----
 
