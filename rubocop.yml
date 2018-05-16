@@ -125,3 +125,6 @@ RSpec/AnyInstance:
 
 RSpec/MessageSpies:
   EnforcedStyle: receive
+
+Lint/SplatKeywordArguments:
+  Enabled: false
