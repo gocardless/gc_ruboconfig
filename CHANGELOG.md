@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.10
+-----
+
+* Bump rubocop version to v0.57.0
+* Remove `Lint/SplatKeywordArguments` configuration
+
 2.3.9
 -----
 
