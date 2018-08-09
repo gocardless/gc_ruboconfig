@@ -128,3 +128,8 @@ RSpec/MessageSpies:
 
 RSpec/Pending:
   Enabled: true
+
+# Re-enable this when the following is resolved:
+# https://github.com/rubocop-hq/rubocop/issues/5953
+Style/AccessModifierDeclarations:
+  Enabled: false
