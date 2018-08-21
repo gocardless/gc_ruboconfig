@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.3.11
+------
+
+* Bump rubocop version to v0.58
+* Disable new `Style/AccessModifierDeclarations` cop which is
+  [buggy](https://github.com/rubocop-hq/rubocop/issues/5953)
+
 2.3.10
 -----
 
