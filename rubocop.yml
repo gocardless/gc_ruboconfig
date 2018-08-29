@@ -133,3 +133,6 @@ RSpec/Pending:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
   Enabled: false
+
+Style/RescueStandardError:
+  EnforcedStyle: implicit
