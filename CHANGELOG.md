@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.12
+------
+
+* Bump rubocop version to v0.60
+
 2.3.11
 ------
 
