@@ -133,3 +133,8 @@ RSpec/Pending:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
   Enabled: false
+
+# Re-enable this when the following is resolved:
+# https://github.com/rubocop-hq/ruby-style-guide/issues/556
+Style/ModuleFunction:
+  Enabled: false
