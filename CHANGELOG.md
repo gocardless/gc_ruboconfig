@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.13
+------
+
+* Disable `Style/ModuleFunction` cop, as it is not quite
+  [correct](https://github.com/rubocop-hq/ruby-style-guide/issues/556)
+
 2.3.12
 ------
 
