@@ -8,6 +8,6 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = 'rubocop.yml'
-  spec.add_dependency 'rubocop', '>= 0.57', '< 0.62'
+  spec.add_dependency 'rubocop', '>= 0.57', '< 0.65'
   spec.add_dependency 'rubocop-rspec', '~> 1.25'
 end
