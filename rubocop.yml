@@ -71,10 +71,10 @@ Style/TrailingCommaInArguments:
 Style/GuardClause:
   Enabled: false
 
-Layout/IndentArray:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Style/Lambda:
