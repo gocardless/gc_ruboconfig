@@ -9,5 +9,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = 'rubocop.yml'
   spec.add_dependency 'rubocop', '>= 0.70'
+  spec.add_dependency 'rubocop-rails', '>= 2.0.1'
   spec.add_dependency 'rubocop-rspec', '>= 1.33.0'
 end
