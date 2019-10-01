@@ -48,13 +48,13 @@ Layout/DotPosition:
   EnforcedStyle: trailing
 
 Style/Encoding:
-  Enabled: never
+  Enabled: false
 
 Style/FormatString:
   EnforcedStyle: sprintf
 
 Style/FrozenStringLiteralComment:
-  Enabled: always
+  Enabled: true
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
