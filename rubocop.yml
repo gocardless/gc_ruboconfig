@@ -1,6 +1,7 @@
 require: rubocop-rspec
 
 AllCops:
+  UseCache: true
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
