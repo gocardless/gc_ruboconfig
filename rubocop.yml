@@ -10,10 +10,10 @@ AllCops:
     - bin/**/*
     - node_modules/**/*
 
-Lint/UnneededCopDisableDirective:
+Lint/RedundantCopEnableDirective:
   Severity: error
 
-Lint/UnneededCopEnableDirective:
+Lint/RedundantCopDisableDirective:
   Severity: error
 
 Metrics/ClassLength:
