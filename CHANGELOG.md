@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.6.1
+-----
+
+* Disable RSpec/ImplicitBlockExpectation [#58]
+
 2.6.0
 -----
 
