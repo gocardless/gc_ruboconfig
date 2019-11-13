@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.7.0
+-----
+
+* Add rubocop-performance lib [#59]
+
 2.6.1
 -----
 
