@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.7.1
+-----
+
+* Actually use rubocop-performance by default [#60]
+
 2.7.0
 -----
 
