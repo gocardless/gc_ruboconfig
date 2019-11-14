@@ -12,7 +12,8 @@ To use `gc_ruboconfig`, simply add it to your Gemfile:
 gem 'gc_ruboconfig'
 ```
 
-The relevant versions of `rubocop` and `rubocop-rspec` will automatically be installed.
+The relevant versions of `rubocop`, `rubocop-rspec` and `rubocop-performance`
+will automatically be installed.
 
 Next, just inherit from it in your `.rubocop.yml`:
 
@@ -21,10 +22,10 @@ inherit_gem:
   gc_ruboconfig: rubocop.yml
 ```
 
-**Note for Rails applications**
+## Note for Rails applications
 
-If using `gc_ruboconfig` with a Rails application, `rubocop-rails` must also be included separately,
-as it has been [deprecated](https://github.com/rubocop-hq/rubocop/pull/7095) as of Rubocop v0.72.
+If using `gc_ruboconfig` with a Rails application, you might wish to use `rubocop-rails`
+as well.
 
 In `Gemfile`:
 
