@@ -21,7 +21,7 @@ Lint/RedundantCopDisableDirective:
 Metrics/ClassLength:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 90
 
 Metrics/BlockLength:
