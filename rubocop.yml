@@ -143,3 +143,12 @@ Style/AccessModifierDeclarations:
 # https://github.com/rubocop-hq/ruby-style-guide/issues/556
 Style/ModuleFunction:
   Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
