@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.10.0
+------
+
+* Bump rubocop version to v0.80 and enable new Hash style cops
+
 2.9.0
 -----
 
