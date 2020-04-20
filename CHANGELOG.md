@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.11.0
+------
+
+* Bump rubocop version to v0.82 and enable two new cops (`Layout/SpaceAroundMethodCallOperator`
+  and `Style/ExponentialNotation`)
+
 2.10.0
 ------
 

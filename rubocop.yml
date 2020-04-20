@@ -116,6 +116,9 @@ Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: space
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 RSpec/NotToNot:
   EnforcedStyle: to_not
 
@@ -151,4 +154,7 @@ Style/HashTransformKeys:
   Enabled: true
 
 Style/HashTransformValues:
+  Enabled: true
+
+Style/ExponentialNotation:
   Enabled: true
