@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.12.0
+------
+* Enable two cops introduced by rubocop v0.81: `Lint/RaiseException` and `Lint/StructNewOverride`
+
 2.11.0
 ------
 
