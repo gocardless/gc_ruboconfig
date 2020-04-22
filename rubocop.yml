@@ -18,6 +18,12 @@ Lint/RedundantCopEnableDirective:
 Lint/RedundantCopDisableDirective:
   Severity: error
 
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
 Metrics/ClassLength:
   Enabled: false
 
