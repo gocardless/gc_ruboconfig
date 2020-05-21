@@ -30,6 +30,9 @@ Metrics/ClassLength:
 Layout/LineLength:
   Max: 90
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Metrics/BlockLength:
   Enabled: false
 
@@ -163,4 +166,7 @@ Style/HashTransformValues:
   Enabled: true
 
 Style/ExponentialNotation:
+  Enabled: true
+
+Style/SlicingWithRange:
   Enabled: true

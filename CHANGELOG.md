@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.13.0
+------
+* Enable two cops introduced by rubocop v0.83: `Layout/EmptyLinesAroundAttributeAccessor` and
+  `Style/SlicingWithRange`
+
 2.12.0
 ------
 * Enable two cops introduced by rubocop v0.81: `Lint/RaiseException` and `Lint/StructNewOverride`
