@@ -170,3 +170,6 @@ Style/ExponentialNotation:
 
 Style/SlicingWithRange:
   Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true

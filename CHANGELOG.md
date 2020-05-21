@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.14.0
+------
+* Enable a new cop introduced by rubocop v0.84: `Lint/DeprecatedOpenSSLConstant`
+
 2.13.0
 ------
 * Enable two cops introduced by rubocop v0.83: `Layout/EmptyLinesAroundAttributeAccessor` and
