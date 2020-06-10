@@ -24,6 +24,9 @@ Lint/RaiseException:
 Lint/StructNewOverride:
   Enabled: true
 
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+
 Metrics/ClassLength:
   Enabled: false
 
@@ -169,6 +172,14 @@ Style/ExponentialNotation:
   Enabled: true
 
 Style/SlicingWithRange:
+  Enabled: true
+
+# Re-enable this when the following is resolved:
+# https://github.com/rubocop-hq/rubocop/issues/8098
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
   Enabled: true
 
 Lint/DeprecatedOpenSSLConstant:

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.15.0
+------
+* Support new cops introduced by rubocop v0.85: `Lint/MixedRegexpCaptureTypes`, `Style/RedundantRegexpEscape`
+  and `Style/RedundantRegexpCharacterClass` (disabled by default)
+
 2.14.0
 ------
 * Enable a new cop introduced by rubocop v0.84: `Lint/DeprecatedOpenSSLConstant`
