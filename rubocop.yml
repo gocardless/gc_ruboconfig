@@ -174,10 +174,8 @@ Style/ExponentialNotation:
 Style/SlicingWithRange:
   Enabled: true
 
-# Re-enable this when the following is resolved:
-# https://github.com/rubocop-hq/rubocop/issues/8098
 Style/RedundantRegexpCharacterClass:
-  Enabled: false
+  Enabled: true
 
 Style/RedundantRegexpEscape:
   Enabled: true
