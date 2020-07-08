@@ -3,6 +3,7 @@ Changelog
 
 2.15.0
 ------
+* Support new cop introduced by rubocop v0.86: `Style/RedundantFetchBlock`
 * Support new cops introduced by rubocop v0.85: `Lint/MixedRegexpCaptureTypes`, `Style/RedundantRegexpEscape`
   and `Style/RedundantRegexpCharacterClass`
 

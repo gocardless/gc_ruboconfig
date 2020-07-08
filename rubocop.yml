@@ -180,5 +180,8 @@ Style/RedundantRegexpCharacterClass:
 Style/RedundantRegexpEscape:
   Enabled: true
 
+Style/RedundantFetchBlock:
+  Enabled: true
+
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
