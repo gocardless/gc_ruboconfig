@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.15.0
+------
+* Support new cop introduced by rubocop v0.87: `Style/AccessorGrouping` (disabled by default),
+  `Style/BisectedAttrAccessor` and `Style/RedundantAssignment`
+* Support new cop introduced by rubocop v0.86: `Style/RedundantFetchBlock`
+* Support new cops introduced by rubocop v0.85: `Lint/MixedRegexpCaptureTypes`, `Style/RedundantRegexpEscape`
+  and `Style/RedundantRegexpCharacterClass`
+
 2.14.0
 ------
 * Enable a new cop introduced by rubocop v0.84: `Lint/DeprecatedOpenSSLConstant`
