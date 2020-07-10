@@ -1,6 +1,18 @@
 Changelog
 =========
 
+2.16.0
+------
+
+* Enable new cops introduced by rubocop-performance v1.7:
+  - `Performance/AncestorsInclude`
+  - `Performance/BigDecimalWithNumericArgument`
+  - `Performance/RedundantSortBlock`
+  - `Performance/ReverseFirst`
+  - `Performance/SortReverse`
+  - `Performance/Squeeze`
+  - `Performance/StringInclude`
+
 2.15.0
 ------
 * Support new cop introduced by rubocop v0.87: `Style/AccessorGrouping` (disabled by default),
