@@ -194,3 +194,29 @@ Style/RedundantAssignment:
 
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
+
+Performance/AncestorsInclude:
+  Enabled: true
+
+Performance/BigDecimalWithNumericArgument:
+  Enabled: true
+
+Performance/RedundantSortBlock:
+  Enabled: true
+
+# Disabled as it removes some idiomatic code, and does some byte/char moving around
+# encoding which we're not confident with.
+Performance/RedundantStringChars:
+  Enabled: false
+
+Performance/ReverseFirst:
+  Enabled: true
+
+Performance/SortReverse:
+  Enabled: true
+
+Performance/Squeeze:
+  Enabled: true
+
+Performance/StringInclude:
+  Enabled: true
