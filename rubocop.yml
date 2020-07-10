@@ -204,6 +204,11 @@ Performance/BigDecimalWithNumericArgument:
 Performance/RedundantSortBlock:
   Enabled: true
 
+# Disabled as it removes some idiomatic code, and does some byte/char moving around
+# encoding which we're not confident with.
+Performance/RedundantStringChars:
+  Enabled: false
+
 Performance/ReverseFirst:
   Enabled: true
 
