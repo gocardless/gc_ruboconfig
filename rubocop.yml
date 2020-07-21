@@ -220,3 +220,25 @@ Performance/Squeeze:
 
 Performance/StringInclude:
   Enabled: true
+
+Lint/DuplicateElsifCondition:
+  Enabled: true
+
+Style/ArrayCoercion:
+  Enabled: true
+  # Disable auto-correct since there's usually a cleaner fix than the one it suggests.
+  AutoCorrect: false
+
+Style/CaseLikeIf:
+  Enabled: true
+
+# Disabled as the two styles that can be chosen are both idiomatic in some places, and
+# not in others.
+Style/HashAsLastArrayItem:
+  Enabled: false
+
+Style/HashLikeCase:
+  Enabled: true
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
