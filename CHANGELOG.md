@@ -1,9 +1,32 @@
 Changelog
 =========
 
+2.17.0
+------
+* Add support for cops introduced by rubocop 0.88 and 0.89
+ - Lint/BinaryOperatorWithIdenticalOperands
+ - Lint/DuplicateElsifCondition
+ - Lint/DuplicateRescueException
+ - Lint/EmptyConditionalBody
+ - Lint/FloatComparison
+ - Lint/MissingSuper
+ - Lint/OutOfRangeRegexpRef
+ - Lint/SelfAssignment
+ - Lint/TopLevelReturnWithArgument
+ - Lint/UnreachableLoop
+ - Style/ArrayCoercion
+ - Style/CaseLikeIf
+ - Style/ExplicitBlockArgument
+ - Style/GlobalStdStream
+ - Style/HashAsLastArrayItem
+ - Style/HashLikeCase
+ - Style/OptionalBooleanParameter
+ - Style/RedundantFileExtensionInRequire
+ - Style/SingleArgumentDig
+ - Style/StringConcatenation
+
 2.16.0
 ------
-
 * Enable new cops introduced by rubocop-performance v1.7:
   - `Performance/AncestorsInclude`
   - `Performance/BigDecimalWithNumericArgument`
