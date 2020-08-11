@@ -1,6 +1,16 @@
 Changelog
 =========
 
+2.17.0
+------
+
+* Enable new cops introduced by rubocop v0.88:
+  - `Lint/DuplicateElsifCondition`
+  - `Style/ArrayCoercion`
+  - `Style/CaseLikeIf`
+  - `Style/HashLikeCase`
+  - `Style/RedundantFileExtensionInRequire`
+
 2.16.0
 ------
 
