@@ -48,6 +48,9 @@ Metrics/ModuleLength:
 Metrics/ParameterLists:
   CountKeywordArgs: false
 
+Metrics/PerceivedComplexity:
+  Max: 11
+
 Style/AsciiComments:
   Enabled: false
 
@@ -245,3 +248,4 @@ Style/HashLikeCase:
 
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+
