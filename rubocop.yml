@@ -149,6 +149,9 @@ RSpec/Pending:
 RSpec/ImplicitBlockExpectation:
   Enabled: false
 
+RSpec/MultipleMemoizedHelpers:
+  Max: 30
+
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
