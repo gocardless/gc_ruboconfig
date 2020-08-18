@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.18.0
+------
+* Set a larger default for `RSpec/MultipleMemoizedHelpers`
+
 2.17.0
 ------
 
