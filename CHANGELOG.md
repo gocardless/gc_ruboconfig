@@ -4,6 +4,21 @@ Changelog
 2.18.0
 ------
 * Set a larger default for `RSpec/MultipleMemoizedHelpers`
+* Enable new cops introduced by rubocop v0.89:
+ - `Lint/BinaryOperatorWithIdenticalOperands`
+ - `Lint/DuplicateRescueException`
+ - `Lint/EmptyConditionalBody`
+ - `Lint/FloatComparison`
+ - `Lint/MissingSuper`
+ - `Lint/OutOfRangeRegexpRef`
+ - `Lint/SelfAssignment`
+ - `Lint/TopLevelReturnWithArgument`
+ - `Lint/UnreachableLoop`
+ - `Style/ExplicitBlockArgument`
+ - `Style/GlobalStdStream`
+ - `Style/SingleArgumentDig`
+ - `Style/OptionalBooleanParameter`
+ - `Style/StringConcatenation`
 
 2.17.0
 ------
