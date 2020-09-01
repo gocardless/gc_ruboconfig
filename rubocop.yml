@@ -48,6 +48,9 @@ Metrics/ModuleLength:
 Metrics/ParameterLists:
   CountKeywordArgs: false
 
+Metrics/PerceivedComplexity:
+  Max: 11
+
 Style/AsciiComments:
   Enabled: false
 
@@ -149,6 +152,9 @@ RSpec/Pending:
 RSpec/ImplicitBlockExpectation:
   Enabled: false
 
+RSpec/MultipleMemoizedHelpers:
+  Max: 30
+
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
@@ -242,3 +248,45 @@ Style/HashLikeCase:
 
 Style/RedundantFileExtensionInRequire:
   Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
+  Enabled: true
+
+Lint/DuplicateRescueException:
+  Enabled: true
+
+Lint/EmptyConditionalBody:
+  Enabled: true
+
+Lint/FloatComparison:
+  Enabled: true
+
+Lint/MissingSuper:
+  Enabled: true
+
+Lint/OutOfRangeRegexpRef:
+  Enabled: true
+
+Lint/SelfAssignment:
+  Enabled: true
+
+Lint/TopLevelReturnWithArgument:
+  Enabled: true
+
+Lint/UnreachableLoop:
+  Enabled: true
+
+Style/ExplicitBlockArgument:
+  Enabled: true
+
+Style/GlobalStdStream:
+  Enabled: true
+
+Style/SingleArgumentDig:
+  Enabled: true
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
