@@ -1,6 +1,18 @@
 Changelog
 =========
 
+2.19.0
+------
+* Enable support for new cops introduced by rubocop v0.90:
+ - `Lint/DuplicateRequire`
+ - `Lint/EmptyFile`
+ - `Lint/TrailingCommaInAttributeDeclaration`
+ - `Lint/UselessMethodDefinition`
+ - `Style/CombinableLoops`
+ - `Style/KeywordParametersOrder`
+ - `Style/RedundantSelfAssignment`
+ - `Style/SoleNestedConditional` (disabled by default)
+
 2.18.0
 ------
 * Set a larger default for `RSpec/MultipleMemoizedHelpers`

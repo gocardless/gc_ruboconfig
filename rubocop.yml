@@ -276,6 +276,18 @@ Lint/TopLevelReturnWithArgument:
 Lint/UnreachableLoop:
   Enabled: true
 
+Lint/DuplicateRequire:
+  Enabled: true
+
+Lint/EmptyFile:
+  Enabled: true
+
+Lint/TrailingCommaInAttributeDeclaration:
+  Enabled: true
+
+Lint/UselessMethodDefinition:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -289,4 +301,16 @@ Style/OptionalBooleanParameter:
   Enabled: false
 
 Style/StringConcatenation:
+  Enabled: false
+
+Style/CombinableLoops:
+  Enabled: true
+
+Style/KeywordParametersOrder:
+  Enabled: true
+
+Style/RedundantSelfAssignment:
+  Enabled: true
+
+Style/SoleNestedConditional:
   Enabled: false
