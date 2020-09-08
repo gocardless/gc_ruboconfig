@@ -304,7 +304,7 @@ Style/StringConcatenation:
   Enabled: false
 
 Style/CombinableLoops:
-  Enabled: true
+  Enabled: false
 
 Style/KeywordParametersOrder:
   Enabled: true
