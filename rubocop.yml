@@ -156,7 +156,7 @@ RSpec/MultipleMemoizedHelpers:
   Max: 30
 
 RSpec/StubbedMock:
-  Enabled: true
+  Enabled: false
 
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
