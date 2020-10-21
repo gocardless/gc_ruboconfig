@@ -155,6 +155,9 @@ RSpec/ImplicitBlockExpectation:
 RSpec/MultipleMemoizedHelpers:
   Max: 30
 
+RSpec/StubbedMock:
+  Enabled: true
+
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
@@ -208,6 +211,9 @@ Performance/BigDecimalWithNumericArgument:
   Enabled: true
 
 Performance/RedundantSortBlock:
+  Enabled: true
+
+Performance/Sum:
   Enabled: true
 
 # Disabled as it removes some idiomatic code, and does some byte/char moving around
@@ -288,6 +294,21 @@ Lint/TrailingCommaInAttributeDeclaration:
 Lint/UselessMethodDefinition:
   Enabled: true
 
+Lint/ConstantDefinitionInBlock:
+  Enabled: true
+
+Lint/HashCompareByIdentity:
+  Enabled: true
+
+Lint/IdentityComparison:
+  Enabled: true
+
+Lint/RedundantSafeNavigation:
+  Enabled: true
+
+Lint/UselessTimes:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -314,3 +335,9 @@ Style/RedundantSelfAssignment:
 
 Style/SoleNestedConditional:
   Enabled: false
+
+Style/ClassEqualityComparison:
+  Enabled: true
+
+Layout/BeginEndAlignment:
+  Enabled: true
