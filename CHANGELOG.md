@@ -1,6 +1,20 @@
 Changelog
 =========
 
+2.20.0
+------
+* Enable support for new cops introduced by rubocop v0.91, v0.92 and v0.93,
+  rubocop-rspec 1.44 and rubocop-performance 1.8:
+ - `RSpec/StubbedMock` (disabled by default)
+ - `Performance/Sum`
+ - `Lint/ConstantDefinitionInBlock`
+ - `Lint/HashCompareByIdentity`
+ - `Lint/IdentityComparison`
+ - `Lint/RedundantSafeNavigation`
+ - `Lint/UselessTimes`
+ - `Style/ClassEqualityComparison`
+ - `Layout/BeginEndAlignment`
+
 2.19.0
 ------
 * Enable support for new cops introduced by rubocop v0.90:

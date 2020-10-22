@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'gc_ruboconfig'
-  spec.version       = '2.19.0'
+  spec.version       = '2.20.0'
   spec.summary       = "GoCardless's shared Rubocop configuration, conforming to our house style"
   spec.authors       = %w[GoCardless]
   spec.homepage      = 'https://github.com/gocardless/ruboconfig'
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = 'rubocop.yml'
-  spec.add_dependency 'rubocop', '>= 0.90'
-  spec.add_dependency 'rubocop-rspec', '>= 1.43.1'
-  spec.add_dependency 'rubocop-performance', '~> 1.7'
+  spec.add_dependency 'rubocop', '>= 0.93'
+  spec.add_dependency 'rubocop-rspec', '>= 1.44.1'
+  spec.add_dependency 'rubocop-performance', '~> 1.8.1'
 end
