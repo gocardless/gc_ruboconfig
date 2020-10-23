@@ -295,7 +295,7 @@ Lint/UselessMethodDefinition:
   Enabled: true
 
 Lint/ConstantDefinitionInBlock:
-  Enabled: true
+  Enabled: false
 
 Lint/HashCompareByIdentity:
   Enabled: true

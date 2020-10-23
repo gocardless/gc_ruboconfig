@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.21.0
+------
+* Disabled `Lint/ConstantDefinitionInBlock` by default
+
 2.20.0
 ------
 * Enable support for new cops introduced by rubocop v0.91, v0.92 and v0.93,
