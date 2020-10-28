@@ -4,6 +4,7 @@ Changelog
 2.21.0
 ------
 * Disabled `Lint/ConstantDefinitionInBlock` by default
+* Require rubocop 1.0
 
 2.20.0
 ------
