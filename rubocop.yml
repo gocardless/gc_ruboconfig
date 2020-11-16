@@ -309,6 +309,9 @@ Lint/RedundantSafeNavigation:
 Lint/UselessTimes:
   Enabled: true
 
+Lint/DuplicateBranch:
+  Enabled: false
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
