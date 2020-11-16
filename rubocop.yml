@@ -312,6 +312,9 @@ Lint/UselessTimes:
 Lint/DuplicateBranch:
   Enabled: false
 
+Lint/EmptyBlock:
+  Enabled: false
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
