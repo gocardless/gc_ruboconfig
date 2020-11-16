@@ -339,5 +339,8 @@ Style/SoleNestedConditional:
 Style/ClassEqualityComparison:
   Enabled: true
 
+Style/CommentAnnotation:
+  Enabled: false
+
 Layout/BeginEndAlignment:
   Enabled: true
