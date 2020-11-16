@@ -315,6 +315,9 @@ Lint/DuplicateBranch:
 Lint/EmptyBlock:
   Enabled: false
 
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: false
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
