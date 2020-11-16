@@ -345,5 +345,8 @@ Style/ClassEqualityComparison:
 Style/CommentAnnotation:
   Enabled: false
 
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+
 Layout/BeginEndAlignment:
   Enabled: true
