@@ -363,5 +363,8 @@ Style/CommentAnnotation:
 Style/DocumentDynamicEvalDefinition:
   Enabled: false
 
+Style/NegatedIfElseCondition:
+  Enabled: false
+
 Layout/BeginEndAlignment:
   Enabled: true
