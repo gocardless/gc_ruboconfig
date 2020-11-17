@@ -1,6 +1,23 @@
 Changelog
 =========
 
+2.22.0
+------
+* Enable support for new cops introduced by rubocop v1.1, v1.2 and v1.3:
+ - Lint/DuplicateBranch (disabled by default)
+ - Lint/EmptyBlock (disabled by default)
+ - Lint/NoReturnInBeginEndBlocks (disabled by default)
+ - Style/CommentAnnotation (disabled by default)
+ - Style/DocumentDynamicEvalDefinition (disabled by default)
+ - Style/NegatedIfElseCondition (disabled by default)
+ - Lint/DuplicateRegexpCharacterClassElement
+ - Lint/ToEnumArguments
+ - Lint/UnmodifiedReduceAccumulator
+ - Style/ArgumentsForwarding
+ - Style/CollectionCompact
+ - Style/NilLambda
+ - Style/SwapValues
+
 2.21.0
 ------
 * Disabled `Lint/ConstantDefinitionInBlock` by default
