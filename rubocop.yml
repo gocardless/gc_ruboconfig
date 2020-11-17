@@ -318,6 +318,15 @@ Lint/EmptyBlock:
 Lint/NoReturnInBeginEndBlocks:
   Enabled: false
 
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+
+Lint/ToEnumArguments:
+  Enabled: true
+
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
