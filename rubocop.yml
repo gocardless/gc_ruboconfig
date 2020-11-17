@@ -233,6 +233,21 @@ Performance/Squeeze:
 Performance/StringInclude:
   Enabled: true
 
+Performance/ArraySemiInfiniteRangeSlice:
+  Enabled: false
+
+Performance/BlockGivenWithExplicitBlock:
+  Enabled: true
+
+Performance/CollectionLiteralInLoop:
+  Enabled: true
+
+Performance/ConstantRegexp:
+  Enabled: true
+
+Performance/MethodObjectAsBlock:
+  Enabled: true
+
 Lint/DuplicateElsifCondition:
   Enabled: true
 

@@ -17,6 +17,12 @@ Changelog
  - Style/CollectionCompact
  - Style/NilLambda
  - Style/SwapValues
+* Enable support for new cops introduced by rubocop-performance 1.9:
+ - Performance/ArraySemiInfiniteRangeSlice (disabled by default)
+ - Performance/BlockGivenWithExplicitBlock
+ - Performance/CollectionLiteralInLoop
+ - Performance/ConstantRegexp
+ - Performance/MethodObjectAsBlock
 
 2.21.0
 ------
