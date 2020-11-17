@@ -366,5 +366,17 @@ Style/DocumentDynamicEvalDefinition:
 Style/NegatedIfElseCondition:
   Enabled: false
 
+Style/ArgumentsForwarding:
+  Enabled: true
+
+Style/CollectionCompact:
+  Enabled: true
+
+Style/NilLambda:
+  Enabled: true
+
+Style/SwapValues:
+  Enabled: true
+
 Layout/BeginEndAlignment:
   Enabled: true
