@@ -330,6 +330,10 @@ Lint/DuplicateBranch:
 Lint/EmptyBlock:
   Enabled: false
 
+Lint/EmptyClass:
+  Exclude:
+    - "spec/**/*"
+
 Lint/NoReturnInBeginEndBlocks:
   Enabled: false
 
