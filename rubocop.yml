@@ -233,6 +233,21 @@ Performance/Squeeze:
 Performance/StringInclude:
   Enabled: true
 
+Performance/ArraySemiInfiniteRangeSlice:
+  Enabled: false
+
+Performance/BlockGivenWithExplicitBlock:
+  Enabled: true
+
+Performance/CollectionLiteralInLoop:
+  Enabled: true
+
+Performance/ConstantRegexp:
+  Enabled: true
+
+Performance/MethodObjectAsBlock:
+  Enabled: true
+
 Lint/DuplicateElsifCondition:
   Enabled: true
 
@@ -309,6 +324,24 @@ Lint/RedundantSafeNavigation:
 Lint/UselessTimes:
   Enabled: true
 
+Lint/DuplicateBranch:
+  Enabled: false
+
+Lint/EmptyBlock:
+  Enabled: false
+
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: false
+
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+
+Lint/ToEnumArguments:
+  Enabled: true
+
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -337,6 +370,27 @@ Style/SoleNestedConditional:
   Enabled: false
 
 Style/ClassEqualityComparison:
+  Enabled: true
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+
+Style/NegatedIfElseCondition:
+  Enabled: false
+
+Style/ArgumentsForwarding:
+  Enabled: true
+
+Style/CollectionCompact:
+  Enabled: true
+
+Style/NilLambda:
+  Enabled: true
+
+Style/SwapValues:
   Enabled: true
 
 Layout/BeginEndAlignment:
