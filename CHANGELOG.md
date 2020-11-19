@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.23.0
+------
+* Disable Lint/EmptyClass for specs
+
 2.22.0
 ------
 * Enable support for new cops introduced by rubocop v1.1, v1.2 and v1.3:
