@@ -4,6 +4,9 @@ Changelog
 2.24.0
 ------
 * Add missing Lint/EmptyClass `enabled` flag
+* Enabled new cops:
+ - Style/RedundantArgument
+ - Lint/UnexpectedBlockArity
 
 2.23.0
 ------

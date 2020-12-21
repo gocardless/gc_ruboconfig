@@ -347,6 +347,9 @@ Lint/ToEnumArguments:
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
 
+Lint/UnexpectedBlockArity:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -396,6 +399,9 @@ Style/NilLambda:
   Enabled: true
 
 Style/SwapValues:
+  Enabled: true
+
+Style/RedundantArgument:
   Enabled: true
 
 Layout/BeginEndAlignment:
