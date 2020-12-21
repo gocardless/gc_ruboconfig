@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.24.0
+------
+* Add missing Lint/EmptyClass `enabled` flag
+
 2.23.0
 ------
 * Disable Lint/EmptyClass for specs
