@@ -248,6 +248,12 @@ Performance/ConstantRegexp:
 Performance/MethodObjectAsBlock:
   Enabled: true
 
+Performance/RedundantEqualityComparisonBlock:
+  Enabled: true
+
+Performance/RedundantSplitRegexpArgument:
+  Enabled: true
+
 Lint/DuplicateElsifCondition:
   Enabled: true
 
