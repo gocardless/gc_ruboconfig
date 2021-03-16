@@ -12,6 +12,9 @@ AllCops:
     - bin/**/*
     - node_modules/**/*
 
+Gemspec/DateAssignment:
+  Enabled: true
+
 Lint/RedundantCopEnableDirective:
   Severity: error
 
@@ -125,6 +128,18 @@ Naming/VariableNumber:
   Enabled: false
 
 Style/YodaCondition:
+  Enabled: true
+
+Style/EndlessMethod:
+  Enabled: true
+
+Style/HashConversion:
+  Enabled: true
+
+Style/HashExcept:
+  Enabled: true
+
+Style/IfWithBooleanLiteralBranches:
   Enabled: true
 
 Layout/SpaceBeforeBlockBraces:
@@ -356,6 +371,30 @@ Lint/UnmodifiedReduceAccumulator:
 Lint/UnexpectedBlockArity:
   Enabled: true
 
+Lint/AmbiguousAssignment:
+  Enabled: true
+
+Lint/DeprecatedConstants:
+  Enabled: true
+
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
+
+Lint/NumberedParameterAssignment:
+  Enabled: true
+
+Lint/OrAssignmentToConstant:
+  Enabled: true
+
+Lint/RedundantDirGlobSort:
+  Enabled: true
+
+Lint/SymbolConversion:
+  Enabled: true
+
+Lint/TripleQuotes:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -411,4 +450,7 @@ Style/RedundantArgument:
   Enabled: true
 
 Layout/BeginEndAlignment:
+  Enabled: true
+
+Layout/SpaceBeforeBrackets:
   Enabled: true
