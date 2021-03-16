@@ -1,6 +1,26 @@
 Changelog
 =========
 
+2.25.0
+------
+* Enabled new cops:
+  - Gemspec/DateAssignment
+  - Layout/SpaceBeforeBrackets
+  - Lint/AmbiguousAssignment
+  - Lint/DeprecatedConstants
+  - Lint/LambdaWithoutLiteralBlock
+  - Lint/NumberedParameterAssignment
+  - Lint/OrAssignmentToConstant
+  - Lint/RedundantDirGlobSort
+  - Lint/SymbolConversion
+  - Lint/TripleQuotes
+  - Style/EndlessMethod
+  - Style/HashConversion
+  - Style/HashExcept
+  - Style/IfWithBooleanLiteralBranches
+  - Performance/RedundantEqualityComparisonBlock
+  - Performance/RedundantSplitRegexpArgument
+
 2.24.0
 ------
 * Add missing Lint/EmptyClass `enabled` flag
