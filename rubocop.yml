@@ -395,6 +395,9 @@ Lint/SymbolConversion:
 Lint/TripleQuotes:
   Enabled: true
 
+Lint/EmptyInPattern:
+  Enabled: true
+
 Style/ExplicitBlockArgument:
   Enabled: true
 
@@ -447,6 +450,18 @@ Style/SwapValues:
   Enabled: true
 
 Style/RedundantArgument:
+  Enabled: true
+
+Style/StringChars:
+  Enabled: true
+
+Style/InPatternThen:
+  Enabled: true
+
+Style/MultilineInPatternThen:
+  Enabled: true
+
+Style/QuotedSymbols:
   Enabled: true
 
 Layout/BeginEndAlignment:
