@@ -449,6 +449,9 @@ Style/SwapValues:
 Style/RedundantArgument:
   Enabled: true
 
+Style/StringChars:
+  Enabled: true
+
 Layout/BeginEndAlignment:
   Enabled: true
 
