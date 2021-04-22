@@ -269,6 +269,9 @@ Performance/RedundantEqualityComparisonBlock:
 Performance/RedundantSplitRegexpArgument:
   Enabled: true
 
+Performance/MapCompact:
+  Enabled: true
+
 Lint/DuplicateElsifCondition:
   Enabled: true
 
