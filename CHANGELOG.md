@@ -1,6 +1,17 @@
 Changelog
 =========
 
+2.26.0
+-----
+* Enabled new rubocop cops:
+  - Lint/EmptyInPattern
+  - Style/StringChars
+  - Style/InPatternThen
+  - Style/MultilineInPatternThen
+  - Style/QuotedSymbols
+* Enabled new rubocop-performance cops:
+  - Performance/MapCompact
+
 2.25.0
 ------
 * Enabled new cops:
