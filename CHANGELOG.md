@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.27.0
+-----
+* Disabled a couple of cops:
+  - Style/NegatedIf
+  - Style/IfUnlessModifier
+
 2.26.0
 -----
 * Enabled new rubocop cops:

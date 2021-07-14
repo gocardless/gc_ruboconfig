@@ -142,6 +142,9 @@ Style/HashExcept:
 Style/IfWithBooleanLiteralBranches:
   Enabled: true
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: space
   EnforcedStyleForEmptyBraces: space
@@ -438,6 +441,9 @@ Style/DocumentDynamicEvalDefinition:
   Enabled: false
 
 Style/NegatedIfElseCondition:
+  Enabled: false
+
+Style/NegatedIf:
   Enabled: false
 
 Style/ArgumentsForwarding:
