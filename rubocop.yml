@@ -478,3 +478,6 @@ Layout/BeginEndAlignment:
 
 Layout/SpaceBeforeBrackets:
   Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
