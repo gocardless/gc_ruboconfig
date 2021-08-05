@@ -127,6 +127,9 @@ Style/StringLiterals:
 Naming/VariableNumber:
   Enabled: false
 
+Naming/InclusiveLanguage:
+  Enabled: false
+
 Style/YodaCondition:
   Enabled: true
 
