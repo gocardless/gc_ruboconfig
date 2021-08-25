@@ -30,6 +30,9 @@ Lint/StructNewOverride:
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 
+Lint/AmbiguousRange:
+  Enabled: true
+
 Metrics/ClassLength:
   Enabled: false
 
@@ -127,6 +130,9 @@ Style/StringLiterals:
 Naming/VariableNumber:
   Enabled: false
 
+Naming/InclusiveLanguage:
+  Enabled: false
+
 Style/YodaCondition:
   Enabled: true
 
@@ -175,6 +181,9 @@ RSpec/MultipleMemoizedHelpers:
 
 RSpec/StubbedMock:
   Enabled: false
+
+RSpec/IdenticalEqualityAssertion:
+  Enabled: true
 
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
@@ -473,8 +482,14 @@ Style/MultilineInPatternThen:
 Style/QuotedSymbols:
   Enabled: true
 
+Style/RedundantSelfAssignmentBranch:
+  Enabled: true
+
 Layout/BeginEndAlignment:
   Enabled: true
 
 Layout/SpaceBeforeBrackets:
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
   Enabled: true
