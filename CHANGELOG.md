@@ -1,6 +1,15 @@
 Changelog
 =========
 
+2.28.0
+-----
+* Enable support for new cops:
+  - `Layout/LineEndStringConcatenationIndentation`
+  - `Naming/InclusiveLanguage` (disabled by default)
+  - `Lint/AmbiguousRange`
+  - `Style/RedundantSelfAssignmentBranch`
+  - `RSpec/IdenticalEqualityAssertion`
+
 2.27.0
 -----
 * Disabled a couple of cops:
