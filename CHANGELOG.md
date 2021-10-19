@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.29.0
+-----
+* Disabled cop:
+  - `Metrics/MethodLength`
+
 2.28.0
 -----
 * Enable support for new cops:
