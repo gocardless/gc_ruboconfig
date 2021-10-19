@@ -46,7 +46,7 @@ Metrics/BlockLength:
   Enabled: false
 
 Metrics/MethodLength:
-  CountComments: false
+  Enabled: false
 
 Metrics/ModuleLength:
   Enabled: false
