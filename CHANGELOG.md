@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.30.0
+-----
+* Disabled cop:
+  - `RSpec/FactoryBot/SyntaxMethods`
+
 2.29.0
 -----
 * Disabled cop:

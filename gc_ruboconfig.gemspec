@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'gc_ruboconfig'
-  spec.version       = '2.29.0'
+  spec.version       = '2.30.0'
   spec.summary       = "GoCardless's shared Rubocop configuration, conforming to our house style"
   spec.authors       = %w[GoCardless]
   spec.homepage      = 'https://github.com/gocardless/ruboconfig'
