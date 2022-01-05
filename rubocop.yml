@@ -185,6 +185,9 @@ RSpec/StubbedMock:
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
 
+RSpec/FactoryBot/SyntaxMethods:
+  Enabled: false
+
 # Re-enable this when the following is resolved:
 # https://github.com/rubocop-hq/rubocop/issues/5953
 Style/AccessModifierDeclarations:
