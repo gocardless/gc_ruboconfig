@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.31.0
+-----
+* Set sensible defaults for:
+  - `Metrics/AbcSize`
+  - `Metrics/CyclomaticComplexity`
+  - `Metrics/ParameterLists`
+
 2.30.0
 -----
 * Disabled cop:
