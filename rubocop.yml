@@ -36,6 +36,9 @@ Lint/AmbiguousRange:
 Metrics/ClassLength:
   Enabled: false
 
+Metrics/AbcSize:
+  Max: 60
+
 Layout/LineLength:
   Max: 90
 
@@ -53,9 +56,13 @@ Metrics/ModuleLength:
 
 Metrics/ParameterLists:
   CountKeywordArgs: false
+  Max: 10
 
 Metrics/PerceivedComplexity:
   Max: 11
+
+Metrics/CyclomaticComplexity:
+  Max: 10
 
 Style/AsciiComments:
   Enabled: false
