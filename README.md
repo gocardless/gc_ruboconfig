@@ -21,21 +21,3 @@ Next, just inherit from it in your `.rubocop.yml`:
 inherit_gem:
   gc_ruboconfig: rubocop.yml
 ```
-
-## Note for Rails applications
-
-If using `gc_ruboconfig` with a Rails application, you might wish to use `rubocop-rails`
-as well.
-
-In `Gemfile`:
-
-```ruby
-gem 'rubocop-rails'
-```
-
-In `.rubocop.yml`:
-
-```yaml
-require:
-  - rubocop-rails
-```
