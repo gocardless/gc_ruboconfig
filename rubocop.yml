@@ -503,3 +503,65 @@ Layout/SpaceBeforeBrackets:
 
 Layout/LineEndStringConcatenationIndentation:
   Enabled: true
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/FileRead:
+  Enabled: false
+
+Style/FileWrite:
+  Enabled: false
+
+Style/MapToHash:
+  Enabled: true
+
+Style/NumberedParameters:
+  Enabled: true
+
+Style/NumberedParametersLimit:
+  Enabled: true
+  Max: 2
+
+Style/OpenStructUse:
+  Enabled: false
+
+Style/SelectByRegexp:
+  Enabled: false
+
+Security/IoMethods:
+  Enabled: true
+
+Gemspec/RequireMFA:
+  Enabled: true
+
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: true
+
+Lint/RequireRelativeSelfPath:
+  Enabled: true
+
+Lint/UselessRuby2Keywords:
+  Enabled: true
+
+Naming/BlockForwarding:
+  Enabled: true
+  EnforcedStyle: "explicit"
+
+RSpec/ExcessiveDocstringSpacing:
+  Enabled: true
+
+RSpec/SubjectDeclaration:
+  Enabled: true
+
+RSpec/Rails/AvoidSetupHook:
+  Enabled: true
+
+Performance/ConcurrentMonotonicTime:
+  Enabled: true
+
+Performance/StringIdentifierArgument:
+  Enabled: true
