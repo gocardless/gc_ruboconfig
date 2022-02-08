@@ -1,6 +1,34 @@
 Changelog
 =========
 
+2.32.0
+-----
+Adding support for new cops:
+
+* Enabled cops:
+  - `Performance/StringIdentifierArgument` - Only pass symbols to `send`
+  - `Style/MapToHash` - Prefer `to_h {}` over `map {}.to_h`
+  - `Style/NumberedParameters` - Only allow numbered params on single lines
+  - `Style/NumberedParametersLimit` - Cap number of numbered params at 2
+  - `Security/IoMethods` - Disallow direct access to `IO.read` methods
+  - `Gemspec/RequireMFA` - Require MFA annotation on gemspecs
+  - `Lint/AmbiguousOperatorPrecedence` - Wrap arguments in parenthesis to denote operator preference
+  - `Lint/IncompatibleIoSelectWithFiberScheduler` -
+  - `Lint/RequireRelativeSelfPath` - Don't `require_relative` on self
+  - `Lint/UselessRuby2Keywords`
+  - `Naming/BlockForwarding` - Prefer `def foo(&block)` over `def foo(&)`
+  - `RSpec/ExcessiveDocstringSpacing` - Remove extra spaces in rspec `describe/context/it` blocks
+  - `RSpec/SubjectDeclaration` - Ensure `subject` is defined using `subject {}` rather than `let(:subject) {}`
+  - `RSpec/Rails/AvoidSetupHook` - Don't use `setup {}` in tests
+  - `Performance/ConcurrentMonotonicTime` - Use correct monotonic time
+
+* Disabled cops:
+  - `Style/HashSyntax` - Don't permit shorthand hash assignment `foo = 1; { foo: }`
+  - `Style/FileRead` - Allow use of `File.open(path, "r")`
+  - `Style/FileWrite` - Allow use of `File.open(path, "w")`
+  - `Style/OpenStructUse` - Allow use of `OpenStruct`s
+  - `Style/SelectByRegexp` - Allow `select { _1 =~ /regex/ }`
+
 2.31.0
 -----
 * Set sensible defaults for:
