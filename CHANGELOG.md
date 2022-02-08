@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.33.0
+-----
+Adding `rubocop-rails` as part of the default install
+
+* Enabled all `Rails/` cops except:
+  - `Rails/AddColumnIndex` - Allow `index: true` when creating a column
+  - `Rails/ShortI18n` - Use long form `translate` and `localize` instead of `t` and `l`
+
 2.32.0
 -----
 Adding support for new cops:
