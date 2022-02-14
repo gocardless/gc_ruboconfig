@@ -1,6 +1,17 @@
 Changelog
 =========
 
+3.0.0
+-----
+Allowing Rails based cops to be required separately. Add the following to use them:
+
+```yaml
+inherit_gem:
+  gc_ruboconfig:
+    - rubocop.yml
+    - rails.yml
+```
+
 2.33.0
 -----
 Adding `rubocop-rails` as part of the default install
