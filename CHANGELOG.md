@@ -1,6 +1,10 @@
 Changelog
 =========
 
+3.0.1
+-----
+Remove `rubocop-rails` require from `rubocop.yml`
+
 3.0.0
 -----
 Allowing Rails based cops to be required separately. Add the following to use them:
