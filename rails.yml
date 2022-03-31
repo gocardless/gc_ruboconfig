@@ -84,3 +84,27 @@ Rails/WhereExists:
 
 Rails/WhereNot:
   Enabled: true
+
+Rails/ActionControllerTestCase:
+  Enabled: true
+
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: true
+
+Rails/DuplicateAssociation:
+  Enabled: true
+
+Rails/DuplicateScope:
+  Enabled: true
+
+Rails/I18nLazyLookup:
+  Enabled: true
+
+Rails/I18nLocaleTexts:
+  Enabled: true
+
+Rails/MigrationClassName:
+  Enabled: true
+
+Rails/TransactionExitStatement:
+  Enabled: true

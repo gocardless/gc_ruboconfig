@@ -565,3 +565,6 @@ Performance/ConcurrentMonotonicTime:
 
 Performance/StringIdentifierArgument:
   Enabled: true
+
+Style/NestedFileDirname:
+  Enabled: true

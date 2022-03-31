@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.1.0
+-----
+
+Enabled new cops from `rubocop` `1.26.1` and `rubocop-rails` `2.14.0`
+
 3.0.1
 -----
 Remove `rubocop-rails` require from `rubocop.yml`
