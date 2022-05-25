@@ -568,3 +568,39 @@ Performance/StringIdentifierArgument:
 
 Style/NestedFileDirname:
   Enabled: true
+
+# new in 1.27
+Style/RedundantInitialize:
+  Enabled: true
+
+Lint/RefinementImportMethods:
+  Enabled: true
+
+# new in 1.28
+Security/CompoundHash:
+  Enabled: true
+
+Style/FetchEnvVar:
+  Enabled: false
+
+Style/ObjectThen:
+  Enabled: true
+
+# new in 1.29
+Style/EnvHome:
+  Enabled: true
+
+# new in 2.9.0
+RSpec/BeEq:
+  Enabled: false
+
+RSpec/BeNil:
+  Enabled: true
+
+# new in 2.10.0
+RSpec/VerifiedDoubleReference:
+  Enabled: true
+
+# new in 2.11.0
+RSpec/ChangeByZero:
+  Enabled: true

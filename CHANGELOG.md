@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.2.0
+-----
+
+Enabled new cops from `rubocop` `1.29.1` and `rubocop-rspec` `2.11.0`
+
 3.1.0
 -----
 
