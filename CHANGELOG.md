@@ -1,6 +1,12 @@
 Changelog
 =========
 
+3.3.0
+-----
+
+Removed `Gemspec/DateAssignment` as it has been removed from rubocop. This is replaced by 
+`Gemspec/DeprecatedAttributeAssignment`
+
 3.2.0
 -----
 
