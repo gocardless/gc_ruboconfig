@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.3.1
+-----
+
+Fixed the version for rubocop-rspec to be <=2.12.1
+
 3.3.0
 -----
 
