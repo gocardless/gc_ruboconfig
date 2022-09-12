@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop', '>= 1.29'
   spec.add_dependency 'rubocop-performance', '>= 1.13'
   spec.add_dependency 'rubocop-rails', '>= 2.14.0'
-  spec.add_dependency 'rubocop-rspec', '>= 2.11.0'
+  spec.add_dependency 'rubocop-rspec', '<= 2.12.1'
 end
