@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.3.2
+-----
+
+Update rubocop-rspec requirement to be >=2.13.1
+
 3.3.1
 -----
 
