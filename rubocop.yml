@@ -604,3 +604,51 @@ RSpec/VerifiedDoubleReference:
 # new in 2.11.0
 RSpec/ChangeByZero:
   Enabled: true
+
+# new in 1.31
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+
+Layout/LineContinuationSpacing:
+  Enabled: true
+
+Lint/ConstantOverwrittenInRescue:
+  Enabled: true
+
+Lint/NonAtomicFileOperation:
+  Enabled: true
+
+# new in 1.32 - many false positives
+Lint/RequireRangeParentheses:
+  Enabled: false
+
+Style/EmptyHeredoc:
+  Enabled: true
+
+# new in 1.35
+Style/MagicCommentFormat:
+  Enabled: true
+
+# new in 1.30
+Style/MapCompactWithConditionalBlock:
+  Enabled: true
+
+# new in 2.13
+RSpec/ClassCheck:
+  Enabled: true
+
+# new in 2.13 - doesn't work with `its`
+RSpec/NoExpectationExample:
+  Enabled: false
+
+ # new in 2.13
+RSpec/Capybara/SpecificFinders:
+  Enabled: true
+
+ # new in 2.12
+RSpec/Capybara/SpecificMatcher:
+  Enabled: true
+
+ # new in 2.12
+RSpec/Rails/HaveHttpStatus:
+  Enabled: true

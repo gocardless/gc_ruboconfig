@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.4.0
+-----
+
+Enabled new cops from `rubocop` `1.36.0`, `rubocop-rails` `2.16.1` and `rubocop-rspec` `2.13.2`
+
 3.3.2
 -----
 
@@ -14,7 +19,7 @@ Fixed the version for rubocop-rspec to be <=2.12.1
 3.3.0
 -----
 
-Removed `Gemspec/DateAssignment` as it has been removed from rubocop. This is replaced by 
+Removed `Gemspec/DateAssignment` as it has been removed from rubocop. This is replaced by
 `Gemspec/DeprecatedAttributeAssignment`
 
 3.2.0
