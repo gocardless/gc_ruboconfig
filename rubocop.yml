@@ -557,9 +557,6 @@ RSpec/ExcessiveDocstringSpacing:
 RSpec/SubjectDeclaration:
   Enabled: true
 
-RSpec/Rails/AvoidSetupHook:
-  Enabled: true
-
 Performance/ConcurrentMonotonicTime:
   Enabled: true
 
@@ -647,8 +644,4 @@ RSpec/Capybara/SpecificFinders:
 
  # new in 2.12
 RSpec/Capybara/SpecificMatcher:
-  Enabled: true
-
- # new in 2.12
-RSpec/Rails/HaveHttpStatus:
   Enabled: true

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.5.0
+-----
+
+Set [RSpec/Rails/HttpStatus](https://docs.rubocop.org/rubocop-rspec/cops_rspec_rails.html#rspecrailshttpstatus)'s enforced style to numeric
+
 3.4.0
 -----
 
