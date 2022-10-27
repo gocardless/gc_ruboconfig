@@ -638,10 +638,32 @@ RSpec/ClassCheck:
 RSpec/NoExpectationExample:
   Enabled: false
 
- # new in 2.13
+# new in 2.13
 RSpec/Capybara/SpecificFinders:
   Enabled: true
 
- # new in 2.12
+# new in 2.12
 RSpec/Capybara/SpecificMatcher:
   Enabled: true
+
+Lint/DuplicateMagicComment: # new in 1.37
+  Enabled: true
+
+Style/OperatorMethodCall: # new in 1.37
+  Enabled: true
+
+Style/RedundantStringEscape: # new in 1.37
+  Enabled: true
+
+RSpec/SortMetadata: # new in 2.14
+  Enabled: true
+
+RSpec/Capybara/NegationMatcher: # new in 2.14
+  Enabled: true
+
+RSpec/Capybara/SpecificActions: # new in 2.14
+  Enabled: false
+
+# Seems to be buggy, causes an infinite loop for `subjects` named `create`
+RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
+  Enabled: false
