@@ -1,6 +1,15 @@
 Changelog
 =========
 
+3.6.0
+-----
+
+Add cops from:
+
+- rubocop 1.37.1
+- rubocop-rspec 2.14.2 
+- rubocop-rails 2.17.2 
+
 3.5.0
 -----
 
