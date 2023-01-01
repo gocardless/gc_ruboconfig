@@ -21,3 +21,4 @@ Next, just inherit from it in your `.rubocop.yml`:
 inherit_gem:
   gc_ruboconfig: rubocop.yml
 ```
+test
