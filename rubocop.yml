@@ -639,11 +639,11 @@ RSpec/NoExpectationExample:
   Enabled: false
 
 # new in 2.13
-RSpec/Capybara/SpecificFinders:
+Capybara/SpecificFinders:
   Enabled: true
 
 # new in 2.12
-RSpec/Capybara/SpecificMatcher:
+Capybara/SpecificMatcher:
   Enabled: true
 
 Lint/DuplicateMagicComment: # new in 1.37
@@ -658,10 +658,10 @@ Style/RedundantStringEscape: # new in 1.37
 RSpec/SortMetadata: # new in 2.14
   Enabled: true
 
-RSpec/Capybara/NegationMatcher: # new in 2.14
+Capybara/NegationMatcher: # new in 2.14
   Enabled: true
 
-RSpec/Capybara/SpecificActions: # new in 2.14
+Capybara/SpecificActions: # new in 2.14
   Enabled: false
 
 # Seems to be buggy, causes an infinite loop for `subjects` named `create`

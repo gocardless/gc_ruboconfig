@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.6.1
+-----
+
+Fix `RSpec/Capybara` namespace warnings
+
 3.6.0
 -----
 
