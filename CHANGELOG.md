@@ -1,6 +1,12 @@
 Changelog
 =========
 
+3.6.2
+-----
+
+This version introduces no changes. We've cut it to check that our release process
+works as expected.
+
 3.6.1
 -----
 
