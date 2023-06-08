@@ -192,7 +192,7 @@ RSpec/StubbedMock:
 RSpec/IdenticalEqualityAssertion:
   Enabled: true
 
-RSpec/FactoryBot/SyntaxMethods:
+FactoryBot/SyntaxMethods:
   Enabled: false
 
 # Re-enable this when the following is resolved:
@@ -665,5 +665,5 @@ Capybara/SpecificActions: # new in 2.14
   Enabled: false
 
 # Seems to be buggy, causes an infinite loop for `subjects` named `create`
-RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
+FactoryBot/ConsistentParenthesesStyle: # new in 2.14
   Enabled: false
