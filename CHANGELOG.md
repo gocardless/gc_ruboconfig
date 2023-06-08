@@ -1,6 +1,13 @@
 Changelog
 =========
 
+4.0.0
+-----
+
+* Drop support for Ruby 2.6
+* Bump minimum rubocop version to 1.50.0
+* Add Ruby 3.2 to test version matrix
+
 3.6.2
 -----
 
@@ -18,8 +25,8 @@ Fix `RSpec/Capybara` namespace warnings
 Add cops from:
 
 - rubocop 1.37.1
-- rubocop-rspec 2.14.2 
-- rubocop-rails 2.17.2 
+- rubocop-rspec 2.14.2
+- rubocop-rails 2.17.2
 
 3.5.0
 -----
