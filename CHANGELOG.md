@@ -7,6 +7,9 @@ Changelog
 * Drop support for Ruby 2.6
 * Bump minimum rubocop version to 1.50.0
 * Add Ruby 3.2 to test version matrix
+* Fix `RSpec/FactoryBot` namespace warnings for rubocop-rspec >= 2.22.0
+  * FactoryBot cops have now been moved out into a new `rubocop-factory_bot` gem
+* Bump rubocop-rspec minimum version to 2.22.0
 
 3.6.2
 -----
