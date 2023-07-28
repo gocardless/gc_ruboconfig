@@ -1,6 +1,12 @@
 Changelog
 =========
 
+4.1.0
+-----
+
+* Increase line length from 90 to 120
+
+
 4.0.0
 -----
 
