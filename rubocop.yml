@@ -40,7 +40,7 @@ Metrics/AbcSize:
   Max: 60
 
 Layout/LineLength:
-  Max: 100
+  Max: 120
 
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
