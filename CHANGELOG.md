@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.2.0
+-----
+
+* Set [Style/ArgumentsForwarding](https://docs.rubocop.org/rubocop/cops_style.html#useanonymousforwarding-false-only-relevant-for-ruby-3-2) - `UseAnonymousForwarding` to false.
+
 4.1.0
 -----
 

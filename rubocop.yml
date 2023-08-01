@@ -467,6 +467,7 @@ Style/NegatedIf:
 
 Style/ArgumentsForwarding:
   Enabled: true
+  UseAnonymousForwarding: false
 
 Style/CollectionCompact:
   Enabled: true
