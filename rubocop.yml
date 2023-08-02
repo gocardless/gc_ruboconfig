@@ -123,6 +123,9 @@ Style/NumericPredicate:
 Style/NumericLiterals:
   MinDigits: 11
 
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: false
+
 Style/SignalException:
   EnforcedStyle: "only_raise"
 
