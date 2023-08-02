@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.3.0
+-----
+
+* Disable [Style/ReturnNilInPredicateMethodDefinition](https://docs.rubocop.org/rubocop/cops_style.html#stylereturnnilinpredicatemethoddefinition)
+
 4.2.0
 -----
 
