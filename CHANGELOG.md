@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.4.1
+-----
+* Disable `HashEachMethods` style for [Style/HashEachMethods](https://docs.rubocop.org/rubocop/cops_style.html#stylehasheachmethods)
+
+
 4.4.0
 -----
 * Enforce `always` style for [Style/AndOr](https://docs.rubocop.org/rubocop/cops_style.html#styleandor)

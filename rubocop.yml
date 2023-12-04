@@ -209,7 +209,7 @@ Style/ModuleFunction:
   Enabled: false
 
 Style/HashEachMethods:
-  Enabled: true
+  Enabled: false
 
 Style/HashTransformKeys:
   Enabled: true
