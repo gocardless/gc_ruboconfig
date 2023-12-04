@@ -671,3 +671,7 @@ Capybara/SpecificActions: # new in 2.14
 # Seems to be buggy, causes an infinite loop for `subjects` named `create`
 FactoryBot/ConsistentParenthesesStyle: # new in 2.14
   Enabled: false
+
+Style/AndOr:
+  Enabled: true
+  EnforcedStyle: always

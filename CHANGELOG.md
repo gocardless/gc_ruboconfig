@@ -1,6 +1,10 @@
 Changelog
 =========
 
+4.4.0
+-----
+* Enforce `always` style for [Style/AndOr](https://docs.rubocop.org/rubocop/cops_style.html#styleandor)
+
 4.3.0
 -----
 
