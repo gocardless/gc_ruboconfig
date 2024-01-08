@@ -675,3 +675,7 @@ FactoryBot/ConsistentParenthesesStyle: # new in 2.14
 Style/AndOr:
   Enabled: true
   EnforcedStyle: always
+
+# Autocorrect is a little simplified and can lead to confusion
+RSpec/ExampleWording:
+  Enabled: false
