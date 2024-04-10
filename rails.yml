@@ -142,16 +142,16 @@ Rails/TopLevelHashWithIndifferentAccess: # new in 2.16
 Rails/WhereMissing: # new in 2.16
   Enabled: true
 
-RSpec/Rails/HaveHttpStatus: # new in 2.12
+RSpecRails/HaveHttpStatus: # new in 2.12
   Enabled: true
 
-RSpec/Rails/AvoidSetupHook:
+RSpecRails/AvoidSetupHook:
   Enabled: true
 
-RSpec/Rails/HttpStatus:
+RSpecRails/HttpStatus:
   EnforcedStyle: numeric
 
-RSpec/Rails/InferredSpecType: # new in 2.14
+RSpecRails/InferredSpecType: # new in 2.14
   Enabled: false
 
 Rails/ActionOrder: # new in 2.17
