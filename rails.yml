@@ -148,7 +148,7 @@ RSpec/Rails/HaveHttpStatus: # new in 2.12
 RSpec/Rails/AvoidSetupHook:
   Enabled: true
 
-RSpec/Rails/HttpStatus:
+RSpecRails/HttpStatus:
   EnforcedStyle: numeric
 
 RSpec/Rails/InferredSpecType: # new in 2.14
