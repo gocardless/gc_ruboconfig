@@ -8,7 +8,7 @@ Changelog
 4.4.2
 -----
 * Adjust renamed cops
-* Disable RSpec/ExampleWording
+* Disable `RSpec/ExampleWording`
 
 4.4.1
 -----
