@@ -1,6 +1,16 @@
 Changelog
 =========
 
+4.5.0
+-----
+* Drop support for Ruby 2.7
+* Disable `Rails/WhereRange`
+
+4.4.2
+-----
+* Adjust renamed cops
+* Disable `RSpec/ExampleWording`
+
 4.4.1
 -----
 * Disable `HashEachMethods` style for [Style/HashEachMethods](https://docs.rubocop.org/rubocop/cops_style.html#stylehasheachmethods)
