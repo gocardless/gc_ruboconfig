@@ -3,6 +3,7 @@ Changelog
 
 4.5.0
 -----
+* Drop support for Ruby 2.7
 * Disable `Rails/WhereRange`
 
 4.4.2
