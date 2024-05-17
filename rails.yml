@@ -163,3 +163,6 @@ Rails/IgnoredColumnsAssignment: # new in 2.17
 # Only relevant for Rails < 6.1
 Rails/WhereNotWithMultipleConditions: # new in 2.17
   Enabled: false
+
+Rails/WhereRange: # New in 2.25
+  Enabled: false
