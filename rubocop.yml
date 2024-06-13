@@ -1,6 +1,7 @@
 require:
   - rubocop-rspec
   - rubocop-performance
+  - rubocop-factory_bot
 
 AllCops:
   DisplayCopNames: true
@@ -642,14 +643,6 @@ RSpec/ClassCheck:
 RSpec/NoExpectationExample:
   Enabled: false
 
-# new in 2.13
-Capybara/SpecificFinders:
-  Enabled: true
-
-# new in 2.12
-Capybara/SpecificMatcher:
-  Enabled: true
-
 Lint/DuplicateMagicComment: # new in 1.37
   Enabled: true
 
@@ -661,12 +654,6 @@ Style/RedundantStringEscape: # new in 1.37
 
 RSpec/SortMetadata: # new in 2.14
   Enabled: true
-
-Capybara/NegationMatcher: # new in 2.14
-  Enabled: true
-
-Capybara/SpecificActions: # new in 2.14
-  Enabled: false
 
 # Seems to be buggy, causes an infinite loop for `subjects` named `create`
 FactoryBot/ConsistentParenthesesStyle: # new in 2.14
