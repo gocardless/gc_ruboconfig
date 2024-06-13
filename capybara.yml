@@ -1,0 +1,16 @@
+require:
+  - rubocop-capybara
+
+# new in 2.13
+Capybara/SpecificFinders:
+  Enabled: true
+
+# new in 2.12
+Capybara/SpecificMatcher:
+  Enabled: true
+  
+Capybara/NegationMatcher: # new in 2.14
+  Enabled: true
+
+Capybara/SpecificActions: # new in 2.14
+  Enabled: false

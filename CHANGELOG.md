@@ -1,9 +1,20 @@
 Changelog
 =========
 
-4.6.0
+5.0.0
 -----
 * Adjustment for supporting rubocop-rspec 3.0.0 >=
+* Bringing out out capybara cop in its own file.
+  * This require 'rubocop-capybara' gem to be added to support the cop rules.
+
+Example:
+```yaml
+inherit_gem:
+  gc_ruboconfig:
+    - rubocop.yml
+    - rails.yml
+    - capybara.yml
+```
 
 4.5.0
 -----
