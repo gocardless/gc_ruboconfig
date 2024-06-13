@@ -1,6 +1,10 @@
 require:
   - rubocop-rspec
   - rubocop-performance
+  - rubocop-factory_bot
+  - rubocop-capybara
+  - rubocop-rails
+  - rubocop-rspec_rails
 
 AllCops:
   DisplayCopNames: true
