@@ -2,14 +2,17 @@ require:
   - rubocop-capybara
 
 # new in 2.13
-RSpec/Capybara/SpecificFinders:
+Capybara/SpecificFinders:
   Enabled: true
 
-RSpec/Capybara/SpecificMatcher: # new in 2.12
+# new in 2.12
+Capybara/SpecificMatcher:
   Enabled: true
 
-RSpec/Capybara/NegationMatcher: # new in 2.14
+# new in 2.14
+Capybara/NegationMatcher:
   Enabled: true
 
-RSpec/Capybara/SpecificActions: # new in 2.14
+# new in 2.14
+Capybara/SpecificActions:
   Enabled: false

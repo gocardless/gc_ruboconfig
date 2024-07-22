@@ -656,7 +656,7 @@ RSpec/SortMetadata: # new in 2.14
   Enabled: true
 
 # Seems to be buggy, causes an infinite loop for `subjects` named `create`
-RSpec/FactoryBot/ConsistentParenthesesStyle: # new in 2.14
+FactoryBot/ConsistentParenthesesStyle: # new in 2.14
   Enabled: false
 
 Style/AndOr:
