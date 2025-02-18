@@ -1,6 +1,8 @@
-require:
+plugins:
   - rubocop-rspec
   - rubocop-performance
+
+require:
   - rubocop-factory_bot
 
 AllCops:
