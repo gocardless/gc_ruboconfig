@@ -1,4 +1,4 @@
-require:
+plugins:
   - rubocop-capybara
 
 # new in 2.13

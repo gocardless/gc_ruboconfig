@@ -1,7 +1,5 @@
 plugins:
   - rubocop-rails
-
-require:
   - rubocop-rspec_rails
 
 Rails/AddColumnIndex:
