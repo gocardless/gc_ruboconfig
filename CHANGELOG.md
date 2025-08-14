@@ -1,6 +1,10 @@
 Changelog
 =========
 
+5.0.6
+-----
+* Disable Rails/FindByOrAssignmentMemoization
+
 5.0.0
 -----
 * Adjustment for supporting rubocop-rspec 3.0.0 >=
