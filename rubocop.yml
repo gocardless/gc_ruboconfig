@@ -12,6 +12,7 @@ AllCops:
     - vendor/**/*
     - bin/**/*
     - node_modules/**/*
+    - sorbet/**/*
 
 Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
