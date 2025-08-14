@@ -1,6 +1,10 @@
 Changelog
 =========
 
+Upcoming
+-----
+* Remove support for Ruby 3.0 and 3.1
+
 5.0.6
 -----
 * Disable Rails/FindByOrAssignmentMemoization
