@@ -6,11 +6,11 @@ Capybara/SpecificFinders:
   Enabled: true
 
 # new in 2.12
-Capybara/SpecificMatcher:
+Capybara/RSpec/SpecificMatcher:
   Enabled: true
 
 # new in 2.14
-Capybara/NegationMatcher:
+Capybara/RSpec/NegationMatcher:
   Enabled: true
 
 # new in 2.14
