@@ -1,8 +1,9 @@
 Changelog
 =========
 
-Upcoming
+6.0.0
 -----
+* Remove support for Ruby 3.2
 * Remove support for Ruby 3.0 and 3.1
 * Fix "Warning: Capybara/[...] has the wrong namespace"
 
